@@ -1,8 +1,8 @@
 print("Este programa analisa os valores digitados")
-digito = input("Entre com um número e 0 a 6:")
+digito = input("Entre com um número e 0 a 6: ")
 
 match digito:
-    case '0':
+    case '0' | '10':
         print("Domingo")
     case '1':
         print("Segunda-Feira")
